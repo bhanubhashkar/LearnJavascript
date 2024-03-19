@@ -1,6 +1,6 @@
 
 #####----- Java Script Notes ------------------------------------------------------#####
 
-
-bhanubhashkar@Bhanus-MacBook-Air LearnJavascript % git config --global user.name 'bhanubhashkar'
-bhanubhashkar@Bhanus-MacBook-Air LearnJavascript % git config --global user.email 'reachoutbhanu@gmail.com'
+Below command for GitHub config :
+git config --global user.name 'bhanubhashkar'
+git config --global user.email 'reachoutbhanu@gmail.com'
