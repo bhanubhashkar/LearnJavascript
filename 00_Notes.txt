@@ -14,3 +14,6 @@ Unassigned variables and constatnts are treated as undefined by JavaScript.
 
 :==: Log multilple 
 console.table([Comma, Seperated, Multiple, Variable ]);
+
+:==: Misc 
+alert("Message")    -   It will not work in onde Env.
