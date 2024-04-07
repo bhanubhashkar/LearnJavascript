@@ -1,0 +1,4 @@
+#####----- Important Notes -----------------------------------------------------------------------------------------------------------#####
+
+:==: Log multilple 
+console.table([Comma, Seperated, Multiple, Variable ]);

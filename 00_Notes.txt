@@ -1,6 +1,16 @@
 
 #####----- Java Script Notes -----------------------------------------------------------------------------------------------------------#####
 
-Below command for GitHub config :
+:===: Below command for GitHub config
 git config --global user.name 'bhanubhashkar'
 git config --global user.email 'reachoutbhanu@gmail.com'
+
+:===: Const Let Var 
+Const   -   Once initialised cant be changed during program execution/run time.
+Let     -   Globally used, Value can be changed during runtime. Solved block and functional scope issue. 
+Var     -   Not preferred, Scope issue, changed all values of that variable in all blokcks and functions.
+
+Unassigned variables and constatnts are treated as undefined by JavaScript.
+
+:==: Log multilple 
+console.table([Comma, Seperated, Multiple, Variable ]);

@@ -3,4 +3,6 @@
 01 - Done : Introduction
 02 - Done : Env Setup
 03 - Done : GitHub
-04 - Progress : Let Const Var
+04 - Done : Let Const Var
+05 - Progress : DataTypes
+ 
