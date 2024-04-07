@@ -1,1 +1,4 @@
-console.log("This is a logged message from Javascript. :)");
+
+//#####----- JavaScript Test -----------------------------------------------------------------------------------------------------------#####
+
+console.log("Hi, This message is logged in console by from JavaScript. :)");

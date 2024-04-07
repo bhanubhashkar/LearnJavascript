@@ -4,5 +4,6 @@
 02 - Done : Env Setup
 03 - Done : GitHub
 04 - Done : Let Const Var
-05 - Progress : DataTypes
+05 - Done : DataTypes
+06 - Progress : DataType conversion
  
