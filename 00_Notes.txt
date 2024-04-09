@@ -13,3 +13,4 @@ console.table([Comma, Seperated, Multiple, Variable ]);
 
 :==: Misc 
 alert("Message")    -   It will not work in node Env.
+

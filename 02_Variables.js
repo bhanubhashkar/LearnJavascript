@@ -14,14 +14,14 @@ userCity = "City";
 console.log("Completed declearation and initialization of the variables.");
 
 //Looging the original value in console
-console.log("### Looging the original value in console :");
+console.log("### Logging the original value in console :");
 console.log(userName);
 console.log(userPass);
 console.log(userEmail);
 console.log(userCity);
 
 //Log multiple variables in one go
-console.log("### Looging the original value in console as table :");
+console.log("### Logging the original value in console as table :");
 console.table([userName, userEmail, userPass, userCity]);
 
 //Changing the values
@@ -33,12 +33,13 @@ userCity = "New City";
 console.log("Value changed.");
 
 //Logging after value change in console
-console.log("### Looging the changed value in console :");
+console.log("### Logging the changed value in console :");
 console.log(userName);
 console.log(userPass);
 console.log(userEmail);
 console.log(userCity);
 
 //Log multiple variables in one go
-console.log("### Looging the changed value in console as table :");
+console.log("### Logging the changed value in console as table :");
 console.table([userName, userEmail, userPass, userCity]);
+

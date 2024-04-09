@@ -38,3 +38,4 @@ console.log(typeof(this_undef));
 console.log(typeof(this_sym));
 console.log(typeof(this_obj));
 console.log("Complete logging the typeof value of variables.");
+
