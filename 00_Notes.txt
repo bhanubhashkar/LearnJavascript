@@ -1,6 +1,9 @@
 
 #####----- Java Script Notes -----------------------------------------------------------------------------------------------------------#####
 
+:===: To run any JS file through NodeJS
+node fimeName
+
 :===: Below command for GitHub config
 git config --global user.name 'bhanubhashkar'
 git config --global user.email 'reachoutbhanu@gmail.com'
