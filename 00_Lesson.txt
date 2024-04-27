@@ -11,5 +11,18 @@
 09 - Done : 03 - DataType Summary
 10 - Done : 07 - Stack and Heap Memory
 11 - Done : 08 - Strings
-12 - In Progress : 09 - Numbers & Maths
+12 - Done : 09 - Numbers & Maths
+13 - Done : 10 - Date & Time
+14 - Done : 11 - Array
+15 - Done : 11 - Array
+16 - Progress : 12 - Objects
+17 - Progress : 12 - Objects
+18 - Progress : 13 - JSON
+19 - Progress : 14 - Function
+20 - Progress : 14 - Function
+21 - Progress : 15 - Scope
+22 - Progress : 16 - Mini Hoisting
+23 - Progress : 17 - Arrow function
+24 - Progress : 18 - IIFE
+25 - Progress : 19 - JS Execution
 
