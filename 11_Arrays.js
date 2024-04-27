@@ -39,3 +39,43 @@ console.log(myArr);
 const arr2 = myArr.splice(0,3);             // Splice the array part and save the original elements, spliced elements removed from original array
 console.log(arr2);
 console.log(myArr);
+
+const heroMarvel = ["Thor","Hulk","Loki","Wanda"];
+const heroDc = ["Batman","Supenman","Flash"];
+
+// const allHero = heroMarvel + heroDc;         // Add two array, but nor recommended as it merges the strings of two array.
+// console.log(allHero); 
+
+// heroMarvel.push(heroDc);                     // Push new array as new element to existing array, its not merging
+// console.log(heroMarvel);
+
+// const allHero = heroMarvel.concat(heroDc);   // Concatinate two array in one array.
+// console.log(allHero);
+
+const allHero = [...heroMarvel, ...heroDc]      // Spread multiple array in one array.
+console.log(allHero);
+
+const mixedArray = ['Bhanu', 98765, ['City','District'], ['Pin',['Home','Work',[998877,665544]]]];
+
+console.log(mixedArray);
+
+const claerArray = mixedArray.flat(3);          // Convert existing multi array elemensts in a single array as per given depth
+
+console.log(claerArray);
+
+console.log(Array.isArray(claerArray));         // Gives boolean result after chceking the passing element is array or not .
+
+let = myName = "Bhanu Bhashkar";
+let = myId = 98765;
+let = myPhone = 8877665544;
+console.log(myArr);
+
+console.log(Array.from(myName));                //  Convert to an array, all passing element to an array.
+
+console.log(myArr);
+
+console.log(Array.of(myName,myId,myPhone));     //  Returns an array, all passing element to an array.
+
+
+
+
