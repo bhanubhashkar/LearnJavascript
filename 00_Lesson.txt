@@ -9,6 +9,7 @@
 07 - Done : 05 - String to Number Conversion
 08 - Done : 06 - Comparison of Data Types
 09 - Done : 03 - DataType Summary
-10 - Progress : Stack and Heap Memory
-
+10 - Done : 07 - Stack and Heap Memory
+11 - Done : 08 - Strings
+12 - In Progress : 09 - Numbers & Maths
 
