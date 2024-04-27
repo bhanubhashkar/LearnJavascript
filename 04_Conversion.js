@@ -1,5 +1,29 @@
 
 //#####----- JavaScript Conversion -----------------------------------------------------------------------------------------------------------#####
+// To Number        -> Use 'Number()' method
+// To String        -> Use 'String()' method
+// To Boolean       -> Use 'Boolean()' method
+
+// Convert to Number 
+// String "33"      -> Converted to Number = 33         (Number Type)
+// String "33aB"    -> Converted to Number = NaN        (Number Type)
+// boolean true     -> Converted to Number = 1          (Number Type)
+// boolean false    -> Converted to Number = 0          (Number Type)
+
+// Convert to String 
+// Number 33        -> Converted to String = "33"       (String Type)
+// boolean true     -> Converted to String = "true"     (String Type)
+// boolean false    -> Converted to String = "false"    (String Type)
+
+// Convert to Boolean 
+// Number 1         -> Converted to Boolean = true      (Boolean Type)
+// Number 0         -> Converted to Boolean = false     (Boolean Type)
+// Number NaN       -> Converted to Boolean = false     (Boolean Type)
+// String "33"      -> Converted to Boolean = true      (Boolean Type)
+// String "Bhanu"   -> Converted to Boolean = true      (Boolean Type)
+// String ""        -> Converted to Boolean = false     (Boolean Type)
+
+
 
 //Declaration initialization of difeferent data types
 console.log("### Declearing and initializing the variables...");
@@ -60,7 +84,7 @@ console.log("Converted to :", typeof(op_num5), op_num5);
 console.log("### Forced Conversion to String.");
 
 console.log("From Number to String :");
-//Forced Conversion of Number to String , Return Number
+//Forced Conversion of Number to String , Return String
 console.log("Initially :", typeof(new_num),  new_num);
 let op_str1 = String(new_num);
 console.log("Converted to :", typeof(op_str1), op_str1);
@@ -90,23 +114,31 @@ let op_str5 = String(new_undef);
 console.log("Converted to :", typeof(op_str5), op_str5);
 
 
+console.log("### Forced Conversion to Boolean.");
 
+console.log("From Number to Boolean :");
+//Forced Conversion of Number to Boolean , Return Boolean
+console.log("Initially :", typeof(new_num),  new_num);
+let op_bool1 = Boolean(new_bool);
+console.log("Converted to :", typeof(op_bool1), op_bool1);
 
+console.log("From Float to Boolean :");
+//Forced Conversion of Float to Boolean, Return Boolean
+console.log("Initially :", typeof(new_flo),  new_flo);
+let op_bool2 = Boolean(new_flo);
+console.log("Converted to :", typeof(op_bool2), op_bool2);
 
-// let numToStr1 = String(new_num);                //Forced Conversion of Number to String
-// console.log(numToStr1,typeof(numToStr1));       //Logging after conversion
+console.log("From String to Boolean :");
+//Forced Conversion of Number to Boolean , Return Boolean
+console.log("Initially :", typeof(new_str2),  new_str2);
+let op_bool3 = Boolean(new_str2);
+console.log("Converted to :", typeof(op_bool3), op_bool3);
 
-// let numToStr2 = String(new_flo);                //Forced Conversion of Number to String
-// console.log(numToStr2,typeof(numToStr2));       //Logging after conversion
-
-
-// console.log("### Forced Conversion of String to Number");
-// let strToNum1 = Number(new_str1);                //Forced Conversion of String to Number
-// console.log(strToNum1,typeof(strToNum1));        //Logging after conversion
-
-// console.log("### Forced Conversion of String to Number");
-// let strToNum2 = Number(new_str2);                //Forced Conversion of String to Number
-// console.log(strToNum2,typeof(strToNum2));        //Logging after conversion
+console.log("From Blank to Boolean :");
+//Forced Conversion of Float to Boolean, Return Boolean
+console.log("Initially :", typeof(new_blank),  new_blank);
+let op_bool4 = Boolean(new_blank);
+console.log("Converted to :", typeof(op_bool4), op_bool4);
 
 
 

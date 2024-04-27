@@ -1,10 +1,14 @@
 
 #####----- Java Script Lesson ----------------------------------------------------------------------------------------------------------#####
-01 - Done : Introduction
-02 - Done : Env Setup
-03 - Done : GitHub
-04 - Done : Let Const Var
-05 - Done : DataTypes
-06 - Progress : DataType conversion
-07 - 
- 
+01 - Done : 01 - Introduction
+02 - Done : 01 - Env Setup
+03 - Done : 01 - GitHub
+04 - Done : 02 - Let Const Var
+05 - Done : 03 - DataTypes
+06 - Done : 04 - DataType Conversion
+07 - Done : 05 - String to Number Conversion
+08 - Done : 06 - Comparison of Data Types
+09 - Done : 03 - DataType Summary
+10 - Progress : Stack and Heap Memory
+
+
