@@ -58,3 +58,54 @@ userObj["email"] = "bhanubhashkar@mail.com";
 console.log(userObj);
 
 
+// New Section - Object 
+console.log("New Section - Object");
+
+// const newUser = new Object();     // Way of defining singleton objects
+
+newUser = {}                        // Way of defining non-singleton objects
+console.log(newUser);   
+
+newUser.id = "ID-12-AZ";
+newUser.name = "Bhanu Bhashkar";
+console.log(newUser); 
+
+// Nested Objects
+otherUser = {
+    userId : "ID-23-UT",
+    email : "otheruser@mail.com",
+    name : {
+        fullName : {
+            firstName : "Bhanu",
+            lastName : "Bhashkar"
+        },
+        nickName: "Tuttu"
+    }
+}
+console.log(otherUser); 
+
+// Accessing nested object values
+console.log(otherUser["name"]);
+console.log(otherUser["name"]["fullName"]);
+console.log(otherUser.name.fullName.firstName);
+
+
+// Combining two objects
+heroObj = {
+    hero1 : "Thor",
+    hero2 : "Hulk"
+}
+villianObj ={
+    vill1 : "Thanos",
+    vill2 : "Joker"
+}
+
+// const combinedObj = {heroObj,villianObj};                    // This will create a new object which consists of 2 objects
+
+// all the object under paranthesis will be added in the fisrt object so, giving an empty object, it will work without that also
+const combinedObj1 = Object.assign({},heroObj,villianObj);      // It will return a new object afer combining all objects
+console.log(combinedObj1);
+
+// Widely used
+const combinedObj2 = {...heroObj,...villianObj};                // It will return a new object afer spreading all objects into a new object
+console.log(combinedObj2);
