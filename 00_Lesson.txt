@@ -17,8 +17,8 @@
 15 - Done : 11 - Array
 16 - Done : 12 - Objects
 17 - Done : 12 - Objects
-18 -  : 12 - Object DeStructure
-19 -  : 13 - Function
+18 - Done : 12 - Object DeStructure
+19 - Start : 13 - Function
 20 -  : 13 - Function
 21 -  : 14 - Scope
 22 -  : 15 - Mini Hoisting
