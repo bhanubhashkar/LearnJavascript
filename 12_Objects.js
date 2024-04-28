@@ -146,3 +146,32 @@ bigObj = [
 
 // Accessing the Array object
 console.log(bigObj[1].id);          // Object with index and key to access the value
+
+
+// New Section - JSON Object 
+console.log("New Section - JSON Object");
+
+bookObj = {
+    bookName : "This is Book Name",
+    author : "writer",
+    price : 999,
+    edition : 1.6
+}
+
+console.log(bookObj.bookName);          // Logging bookName with dot operator
+
+const {bookName} = bookObj              // Destructuring the object
+console.log(bookName);                  // Logging bookname using object destructured 
+
+const {bookName:book} = bookObj         // Destructuring the object and refering the book name balue to book now
+console.log(book);                      // Logging bookname using book destructured object
+
+
+// JSON
+// const oneJSON = {
+//     "name" : "Bhanu Bhashkar",
+//     "role" : "engineer",
+//     "mobile" : 8877665544
+// }
+
+// console.log(oneJSON);
