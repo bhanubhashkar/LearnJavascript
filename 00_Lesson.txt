@@ -20,8 +20,8 @@
 18 - Done : 12 - Object DeStructure
 19 - Done : 13 - Function
 20 - Done : 13 - Function
-21 -  : 14 - Scope
-22 -  : 15 - Mini Hoisting
+21 - Done : 14 - Scope
+22 -  : 15 - Scope & Mini Hoisting
 23 -  : 16 - Arrow function
 24 -  : 17 - IIFE
 25 -  : 18 - JS Execution
