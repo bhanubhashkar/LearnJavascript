@@ -80,7 +80,8 @@ otherUser = {
             lastName : "Bhashkar"
         },
         nickName: "Tuttu"
-    }
+    },
+    mobile : 8877665544
 }
 console.log(otherUser); 
 
@@ -88,6 +89,20 @@ console.log(otherUser);
 console.log(otherUser["name"]);
 console.log(otherUser["name"]["fullName"]);
 console.log(otherUser.name.fullName.firstName);
+
+
+// Segregating all keys of an object
+console.log(Object.keys(otherUser));
+
+// Segregating all values of an object
+console.log(Object.values(otherUser));
+
+// Segregating all entries of an object
+console.log(Object.entries(otherUser));
+
+// Chcek if the object has the given key in there or not, return boolean value
+console.log(otherUser.hasOwnProperty("mobile"));
+console.log(otherUser.hasOwnProperty("phone"));
 
 
 // Combining two objects
@@ -109,3 +124,25 @@ console.log(combinedObj1);
 // Widely used
 const combinedObj2 = {...heroObj,...villianObj};                // It will return a new object afer spreading all objects into a new object
 console.log(combinedObj2);
+
+
+
+
+// Array Object with multiple object inside
+bigObj = [
+    {
+        id : "AA-123",
+        name : "Bhanu"
+    },
+    {
+        id : "AB-234",
+        name : "Bhashkar"
+    },
+    {
+        id : "AC-345",
+        name : "Tuttu"
+    }
+]
+
+// Accessing the Array object
+console.log(bigObj[1].id);          // Object with index and key to access the value
