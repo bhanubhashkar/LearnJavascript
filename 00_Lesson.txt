@@ -15,14 +15,14 @@
 13 - Done : 10 - Date & Time
 14 - Done : 11 - Array
 15 - Done : 11 - Array
-16 - Progress : 12 - Objects
-17 - Progress : 12 - Objects
-18 - Progress : 13 - JSON
-19 - Progress : 14 - Function
-20 - Progress : 14 - Function
-21 - Progress : 15 - Scope
-22 - Progress : 16 - Mini Hoisting
-23 - Progress : 17 - Arrow function
-24 - Progress : 18 - IIFE
-25 - Progress : 19 - JS Execution
+16 - Done : 12 - Objects
+17 -  : 12 - Objects
+18 -  : 13 - JSON
+19 -  : 14 - Function
+20 -  : 14 - Function
+21 -  : 15 - Scope
+22 -  : 16 - Mini Hoisting
+23 -  : 17 - Arrow function
+24 -  : 18 - IIFE
+25 -  : 19 - JS Execution
 
