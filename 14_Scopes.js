@@ -35,5 +35,34 @@ console.log(num2);
 console.log(num3);
 console.log(num4);
 
+function user(){
+    let userName = "Bhanu";
 
+    function innerUser() {
+        let innerUser ="Bhashkar";
+
+        console.log(userName);
+        console.log(innerUser);
+    }
+    innerUser();
+}
+
+// console.log(userName);       // can not be accessed after the user function scope.
+user();
+
+
+
+console.log(addOne(3));         // Direct declared function can be used even before declaration
+
+function addOne(num){
+    return(num+1);
+}
+
+
+// Function declared in a variable cannot be used before declaration
+const addTwo = function(num){
+    return(num+2);
+}
+
+console.log(addTwo(4));
 
