@@ -21,8 +21,8 @@
 19 - Done : 13 - Function
 20 - Done : 13 - Function
 21 - Done : 14 - Scope
-22 - Done : 15 - Scope & Mini Hoisting
-23 -  : 16 - THIS & Arrow function
-24 -  : 17 - IIFE
+22 - Done : 14 - Scope & Mini Hoisting
+23 - Done : 15 - THIS & Arrow function
+24 -  : 15 - IIFE
 25 -  : 18 - JS Execution
 

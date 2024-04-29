@@ -56,3 +56,5 @@ console.log(divNum(5,2));
 
 const myName = (num1,num2) => ({name:"Bhanu Bhashkar"});
 console.log(myName());
+
+
