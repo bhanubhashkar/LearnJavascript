@@ -24,5 +24,6 @@
 22 - Done : 14 - Scope & Mini Hoisting
 23 - Done : 15 - THIS & Arrow function
 24 - Done : 16 - IIFE
-25 - Progress : 17 - JS Execution
+25 - Done : 17 - JS Execution
+
 
