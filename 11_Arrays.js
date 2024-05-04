@@ -76,6 +76,11 @@ console.log(myArr);
 
 console.log(Array.of(myName,myId,myPhone));     //  Returns an array, all passing element to an array.
 
-
-
+// To check Array is empty or not
+if (myArr.length === 0) {
+    console.log("Array is empty");
+}
+else {
+    console.log("Array have some value.");
+}
 

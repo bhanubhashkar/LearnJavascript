@@ -167,6 +167,18 @@ const {bookName:book} = bookObj         // Destructuring the object and refering
 console.log(book);                      // Logging bookname using book destructured object
 
 
+
+// Check if object is empty
+const emptyObject = {};
+
+if (Object.keys(emptyObject).length === 0) {
+    console.log("Object is empty");
+} else {
+    console.log("Object have some values.");
+    
+}
+
+
 // JSON
 // const oneJSON = {
 //     "name" : "Bhanu Bhashkar",
