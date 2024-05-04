@@ -25,5 +25,9 @@
 23 - Done : 15 - THIS & Arrow function
 24 - Done : 16 - IIFE
 25 - Done : 17 - JS Execution
-
+26 -  : 18 - Control Flow
+27 -  : 19 - For Loop
+28 -  : 20 - While & DoWhile Loop
+29 -  : 21 - High Order Array Loop
+30 -  : 22 - Filter Map & Reduce
 
