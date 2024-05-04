@@ -3,7 +3,8 @@
 
 // For Loop -   Iterate the block of code for defined times.
 // Multiple for loop can be nested inside
-// Break keywrd can be used to terminate the loop in between
+// Break keyword can be used to terminate the loop in between
+// Continue keyword can be used to skip code execution under loop block for 1 time
 
 for (let itr = 1; itr <=10; itr++) {
     const element = itr;
@@ -11,13 +12,25 @@ for (let itr = 1; itr <=10; itr++) {
 }
 
 for (let itr = 1; itr <=10; itr++) {
-    const element = itr;
-    console.log(itr);
     if (itr==4) {
         console.log("reached 4");
         break;
     }
+    console.log(itr);
 }
+
+for (let itr = 1; itr <=10; itr++) {
+    if (itr==4) {
+        console.log("reached 4");
+        continue;
+    }
+    if (itr==8) {
+        console.log("reached 6");
+        continue;
+    }
+    console.log(itr);
+}
+
 
 // Table 1 to 5
 for (let i = 1; i <= 5; i++) {
