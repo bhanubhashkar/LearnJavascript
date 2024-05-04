@@ -65,6 +65,7 @@ else{
 // Matches key values with cases and execute the codes for the caes which matches the key.
 // Once case is matched all the code below that will be executed including other case mentioned after except default case. 
 // The code execution stops as soon any break statement comes in flow, after that exection stops for the whole case block.
+// If no case matches then default case will be executed.
 
 
 var month = 10;
