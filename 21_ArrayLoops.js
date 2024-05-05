@@ -56,7 +56,8 @@ for (const key in code) {
 }
 
 
-// foreach loop 
+// foreach loop - it  does not returns any value
+// If the value under function is not returned in same line then it needs to be returned explicitly using return keyword under new scope.
 // Loop on Array
 
 const pCode =['BGP:854311','MGR:813201','TRP:813221','PRN:854301','KOL:700135'];
