@@ -29,5 +29,21 @@
 27 - Done : 19 - For Loop
 28 - Done : 20 - While & DoWhile Loop
 29 - Done : 21 - High Order Array Loop
-30 -  : 22 - Filter Map & Reduce
+30 - Done : 22 - Filter Map & Reduce
+31 -  : 23 - DOM Introdution
+32 -  : 24 - All DOM Selectors
+33 -  : 25 - New Element in DOM
+34 -  : 26 - Edit & Remove DOM Element
+35 -  : -- - Projects 
+36 -  : 27 - Events
+37 -  : 28 - Async Fundamentals
+38 -  : -- - Projects
+39 -  : 29 - API & V8 Engine
+40 -  : 30 - Promise
+
+
+
+
+
+
 
