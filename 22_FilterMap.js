@@ -83,3 +83,4 @@ console.log(otherNum);
 const otherNum2 = otherNumArr.map( (num) => num * 10).map ( (num) => num + 1). filter((num) => num > 50);
 
 console.log(otherNum2);
+
