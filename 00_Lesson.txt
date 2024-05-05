@@ -28,6 +28,6 @@
 26 - Done : 18 - Control Flow
 27 - Done : 19 - For Loop
 28 - Done : 20 - While & DoWhile Loop
-29 -  : 21 - High Order Array Loop
+29 - Done : 21 - High Order Array Loop
 30 -  : 22 - Filter Map & Reduce
 
