@@ -84,3 +84,51 @@ const otherNum2 = otherNumArr.map( (num) => num * 10).map ( (num) => num + 1). f
 
 console.log(otherNum2);
 
+// Reduce
+const score = [1,2,3,4,5];
+
+let totalScore = score.reduce( function (acc, cval) {
+    console.log(`Accumulator : ${acc}, CurrentVal : ${cval}`);
+    return acc + cval;
+
+},0)
+
+console.log(totalScore);
+
+let totalScore1 = score.reduce(  (acc, cval) => {
+    console.log(`Accumulator : ${acc}, CurrentVal : ${cval}`);
+    return acc + cval;
+
+},0)
+
+console.log(totalScore1);
+
+
+const cart =[
+    {
+        item : 'JavaScript',
+        price : 999
+    },
+    {
+        item : 'Python',
+        price : 999
+    },
+    {
+        item : 'ANGular',
+        price : 999
+    },
+    {
+        item : 'JAVA',
+        price : 999
+    },
+]
+
+let totalprice = cart.reduce((acc, cval) => {
+    console.log(`Accumulator : ${acc}, CurrentVal : ${cval}`);
+    price = cval.price
+    return acc + price;
+
+},0)
+
+console.log(totalprice);
+
