@@ -1,10 +1,15 @@
 
 #####----- JavaScript Lesson ------------------------------------------------------------------------------#####
 01 - Done : 01 - Introduction
-02 - Done : 01 - Env Setup
-
-
-
+02 - Done : 02 - Variables
+03 - Done : 03 - Data Types
+04 - Done : 03 - Operators
+05 - Done : 04 - Conditional Statement
+06 - Done : 04 - Switch Case
+06 - Done : 05 - Logical Operator
+07 - Done : 06 - Loops
+08 - Done : 07 - Function
+09 - Done : 08 - Arrow Function
 
 
 
