@@ -5,6 +5,7 @@
 // Like str + str + num => First is str so all will be treated as str.
 // Like num + num + str => First is num so all will be treared as num.
 
+// Assignment "=, +=, -=, *=, /=, %="
 // Addition
 // Substraction
 // Mupltiplication
