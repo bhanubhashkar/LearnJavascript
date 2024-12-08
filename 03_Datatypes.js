@@ -1,6 +1,9 @@
 // #####------------------------------------------------------------------------------------------------------#####
 // #####----- JavaScript DataTypes ---------------------------------------------------------------------------#####
 
+
+// ### Primitive and Non-Primitive
+
 //Type	    typeof return value	    Object wrapper
 //Number    "number"	            Number
 //BigInt    "bigint"	            BigInt
