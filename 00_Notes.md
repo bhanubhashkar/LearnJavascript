@@ -197,5 +197,3 @@ console.log(this_func());
 ```javascript
 
 ```
-
-
