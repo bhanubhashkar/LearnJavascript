@@ -30,7 +30,7 @@ trace()	    :   Outputs a stack trace to the console
 warn()      :   Outputs a warning message to the console
 group()	    :   Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() is called
 groupEnd()	:   Exits the current inline group in the console
-groupCollapsed():	Creates a new inline group in the console. However, the new group is created collapsed. The user will need to use the disclosure button to expand it
+groupCollapsed():   Creates a new inline group in the console. However, the new group is created collapsed. The user will need to use the disclosure button to expand it
 
 */
 ```
