@@ -1,86 +1,6 @@
-# Javascript Notes
-[Checkout my Profile](https://github.com/bhanubhashkar)
+// #####------------------------------------------------------------------------------------------------------#####
+// #####----- Datatypes --------------------------------------------------------------------------------------#####
 
-## Basics
-```javascript
-// Single line comment
-
-/*
-Multi line comment
-*/
-```
-
-## Console Method
-```javascript
-/*
-The console object provides access to the browser's debugging console.
-The console object is a property of the window object.
-
-Method	    Description
-log()	    Outputs a message to the console
-info()	    Outputs an informational message to the console
-warn()      Outputs a warning message to the console
-error()	    Outputs an error message to the console
-clear()	    Clears the console
-trace()	    Outputs a stack trace to the console
-table()	    Displays tabular data as a table
-time()	    Starts a timer (can track how long an operation takes)
-timeEnd()	Stops a timer that was previously started by console.time()
-assert()	Writes an error message to the console if a assertion is false
-count()	    Logs the number of times that this particular call to count() has been called
-group()	    Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() is called
-groupEnd()	Exits the current inline group in the console
-groupCollapsed()	Creates a new inline group in the console. However, the new group is created collapsed. The user will need to use the disclosure button to expand it
-
-*/
-```
-
-```javascript
-
-console.log("This is a simple log statement.");
-
-console.info("INFO : This is an info log.");
-
-console.warn("WARN :This is a warning!");
-
-console.error("ERROR : This is an error log.");
-
-console.clear();
-
-console.trace();
-
-console.table(["HTML", "CSS", "SQL"]);
-console.table({firstname:"Bhanu", lastname:"Bhashkar"});
-
-console.time("start")
-console.timeEnd("start");
-
-console.assert(5 + 5 == 10, "Expression returned true.");
-console.assert(0, "Expression returned false.");
-
-console.count("myLabel");
-console.count("myLabel");
-console.count("myLabel");
-
-console.count("newLabel");
-console.count("newLabel");
-
-console.group();
-console.log("Hello again, this time inside a group!");
-console.log("Hello again, this time inside a group!");
-console.log("Hello again, this time inside a group!");
-console.groupEnd();
-
-console.groupCollapsed();
-console.log("Hello again, this time inside a collapsed group!");
-console.log("Hello again, this time inside a collapsed group!");
-console.log("Hello again, this time inside a collapsed group!");
-console.groupEnd();
-```
-
-
-## Datatypes
-```javascript
 /*
 Each value in a JavaScript program is associated with a data type. A data type specifies the type of data Number, String, Boolean, Double, etc. 
 Each data type requires different amounts of memory and has some specific operations which can be performed over it. 
@@ -103,9 +23,6 @@ The data types in JavaScript can be categorized into two types.
 *Function data type is called Object Function.
 
 */
-```
-
-```javascript
 
 // Difeferent types of Primitive datatypes examples:
 let this_num = 42;              // This is a number
@@ -126,6 +43,7 @@ console.log("The datatype of", this_undef, "is", typeof(this_undef));
 console.log("The datatype of", this_null, "is", typeof(this_null));
 console.log("The datatype of", this_sym, "is", typeof(this_sym));
 
+
 // Difeferent types of Non-Primitive datatypes examples:
 let this_array = ["Cricket", "Baseball", "Hockey"];     // This is object
 let this_obj = {name: "Bhanu", address: "Kolkata"};     // This is object
@@ -142,54 +60,5 @@ console.log("The datatype of", this_func, "is", typeof(this_func));
 console.log(this_fun());
 console.log(this_func());
 
-```
-
-
-## 
-```javascript
-/*
-
-*/
-```
-
-```javascript
-
-```
-
-
-## 
-```javascript
-/*
-
-*/
-```
-
-```javascript
-
-```
-
-
-## 
-```javascript
-/*
-
-*/
-```
-
-```javascript
-
-```
-
-
-## 
-```javascript
-/*
-
-*/
-```
-
-```javascript
-
-```
 
 
