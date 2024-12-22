@@ -267,7 +267,7 @@ All the comparison operators can also be used on strings, strings are compared a
 */
 ```
 
-### Logiacl Operator
+### Logical Operator
 ```javascript
 /*
 Logical Operators
