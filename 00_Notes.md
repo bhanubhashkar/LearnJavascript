@@ -89,25 +89,20 @@ In JavaScript, we use var, let, and const to create variables. They control how 
 var     :   The var is the oldest keyword to declare a variable in JavaScript. If declared globally, then can be used anywhere in code, If decalred inside a function, then can be used it within that function only. (Not being used)
 let     :   The let variable is only available inside the block {} where it is define. The value can be changed infinitely after decalration. let is block-scoped.
 const   :   const is similar to let, Only difference is once value is assigned to a const variable, we can’t change it later. const is block-scoped.
-
 The data types in JavaScript can be categorized into two types.
-1. Primitive
-    Number      :   Numbers are always stored in double-precision 64-bit binary format IEEE 754.
-    String      :   Strings are made up of a list of characters, essentially an array of characters.
-    Boolean     :   Represents a logical entity and can have two values: true or false.
-    Big Int     :   BigInt is a built-in object providing a way to represent whole numbers larger than 253-1.
-    Undefined   :   A variable that has not been assigned a value is undefined.
-    Null        :   This type has only one value: null.
-    Symbol      :   Symbols return unique identifiers that can be used as property keys in objects without colliding with other keys.
+```
 
-2. Non Primitive/ Referemce Type/ Dynamically Typed
-    Array       :   An Array is a special kind of object used to store an ordered collection of values, which can be of any data type.
-    Object      :   Objects are fundamental data structures used to store collections of data. It consist of key-value pairs and can be created using curly braces {} or the new keyword
-    Functions   :   A JavaScript function is a block of code designed to perform a particular task.
-    
-*All Non Primitive Data Types is called function.
-*Function data type is called Object Function.
-
+### Primitive Datatypes
+```javascript
+/*
+Primitive
+1. Number      :   Numbers are always stored in double-precision 64-bit binary format IEEE 754.
+2. String      :   Strings are made up of a list of characters, essentially an array of characters.
+3. Boolean     :   Represents a logical entity and can have two values: true or false.
+4. Big Int     :   BigInt is a built-in object providing a way to represent whole numbers larger than 253-1.
+5. Undefined   :   A variable that has not been assigned a value is undefined.
+6. Null        :   This type has only one value: null.
+7. Symbol      :   Symbols return unique identifiers that can be used as property keys in objects without colliding with other keys.
 */
 ```
 
@@ -131,6 +126,23 @@ console.log("The datatype of", this_big, "is", typeof(this_big));
 console.log("The datatype of", this_undef, "is", typeof(this_undef));
 console.log("The datatype of", this_null, "is", typeof(this_null));
 console.log("The datatype of", this_sym, "is", typeof(this_sym));
+```
+
+
+### NonPrimitive Datatypes
+```javascript
+/*
+Non Primitive/ Referemce Type/ Dynamically Typed
+1. Array       :   An Array is a special kind of object used to store an ordered collection of values, which can be of any data type.
+2. Object      :   Objects are fundamental data structures used to store collections of data. It consist of key-value pairs and can be created using curly braces {} or the new keyword
+3. Functions   :   A JavaScript function is a block of code designed to perform a particular task.
+    
+*All Non Primitive Data Types is called function.
+*Function data type is called Object Function.
+*/
+```
+
+```javascript
 
 // Difeferent types of Non-Primitive datatypes examples:
 let this_array = ["Cricket", "Baseball", "Hockey"];     // This is object
