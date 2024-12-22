@@ -8,7 +8,7 @@ The console object provides access to the browser's debugging console.
 The console object is a property of the window object.
 
 Method	    Description
-- **log()**	    Outputs a message to the console
+log()	    Outputs a message to the console
 info()	    Outputs an informational message to the console
 warn()      Outputs a warning message to the console
 error()	    Outputs an error message to the console
@@ -68,3 +68,7 @@ console.log("Hello again, this time inside a collapsed group!");
 console.log("Hello again, this time inside a collapsed group!");
 console.groupEnd();
 ```
+
+
+
+
