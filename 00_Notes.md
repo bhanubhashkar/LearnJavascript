@@ -18,7 +18,7 @@ The console object is a property of the window object.
 
 Method	    :   Description
 log()	    :   Outputs a message to the console
-assert()	:   Writes an error message to the console if a assertion is false
+assert()    :   Writes an error message to the console if a assertion is false
 clear()	    :   Clears the console
 count()	    :   Logs the number of times that this particular call to count() has been called
 error()	    :   Outputs an error message to the console
