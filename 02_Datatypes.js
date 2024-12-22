@@ -67,4 +67,3 @@ console.log(this_fun());
 console.log(this_func());
 
 
-
