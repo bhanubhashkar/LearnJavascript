@@ -4,6 +4,12 @@
 /*
 Each value in a JavaScript program is associated with a data type. A data type specifies the type of data Number, String, Boolean, Double, etc. 
 Each data type requires different amounts of memory and has some specific operations which can be performed over it. 
+
+In JavaScript, we use var, let, and const to create variables. They control how and where variables can be accesed and manupulated in code.
+var     :   The var is the oldest keyword to declare a variable in JavaScript. If declared globally, then can be used anywhere in code, If decalred inside a function, then can be used it within that function only. (Not being used)
+let     :   The let variable is only available inside the block {} where it is define. The value can be changed infinitely after decalration. let is block-scoped.
+const   :   const is similar to let, Only difference is once value is assigned to a const variable, we can’t change it later. const is block-scoped.
+
 The data types in JavaScript can be categorized into two types.
 1. Primitive
     Number      :   Numbers are always stored in double-precision 64-bit binary format IEEE 754.
