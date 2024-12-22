@@ -25,7 +25,7 @@ error()	    :   Outputs an error message to the console
 info()	    :   Outputs an informational message to the console
 table()	    :   Displays tabular data as a table
 time()	    :   Starts a timer (can track how long an operation takes)
-timeEnd()	:   Stops a timer that was previously started by console.time()
+timeEnd()   :   Stops a timer that was previously started by console.time()
 trace()	    :   Outputs a stack trace to the console
 warn()      :   Outputs a warning message to the console
 group()	    :   Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() is called
