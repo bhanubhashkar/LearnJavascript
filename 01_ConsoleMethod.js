@@ -1,8 +1,6 @@
-# Javascript Notes
-[Checkout my Profile](https://github.com/bhanubhashkar)
+// #####------------------------------------------------------------------------------------------------------#####
+// #####----- Console Method ---------------------------------------------------------------------------------#####
 
-## Console Method
-```javascript
 /*
 The console object provides access to the browser's debugging console.
 The console object is a property of the window object.
@@ -24,9 +22,6 @@ groupEnd()	Exits the current inline group in the console
 groupCollapsed()	Creates a new inline group in the console. However, the new group is created collapsed. The user will need to use the disclosure button to expand it
 
 */
-```
-
-```javascript
 
 console.log("This is a simple log statement.");
 
@@ -67,4 +62,3 @@ console.log("Hello again, this time inside a collapsed group!");
 console.log("Hello again, this time inside a collapsed group!");
 console.log("Hello again, this time inside a collapsed group!");
 console.groupEnd();
-```
