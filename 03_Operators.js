@@ -83,6 +83,7 @@ The + can also be used to add (concatenate) strings.
 The += assignment operator can also be used to add (concatenate) strings.
 Adding two numbers, will return the sum, but adding a number and a string will return a string.
 All the comparison operators can also be used on strings, strings are compared alphabetically.
+Strig interpolation Ex- `Hello, Good morning ${nameVariable}`
 */
 
 /*
