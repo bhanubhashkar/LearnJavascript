@@ -438,7 +438,7 @@ console.log(result);
 
 ```
 
-##
+## Loops
 ```javascript
 /*
 
