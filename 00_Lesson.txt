@@ -1,0 +1,25 @@
+#####------------------------------------------------------------------------------------------------------#####
+#####----- Lesson -----------------------------------------------------------------------------------------#####
+
+
+01 - Done : 01 - Introduction
+02 - Done : 02 - Env Setup
+03 - Done : 03 - GitHub
+04 - Done : 04 - Let Const Var
+05 - Done : 05 - DataTypes
+06 - Done : 06 - DataType Conversion
+
+07 - Done : 05 - String to Number Conversion
+08 - Done : 06 - Comparison of Data Types
+09 - Done : 03 - DataType Summary
+10 - Done : 07 - Stack and Heap Memory
+11 - Done : 08 - Strings
+12 - Done : 09 - Numbers & Maths
+13 - Done : 10 - Date & Time
+14 - Done : 11 - Array
+15 - Done : 11 - Array
+16 - Done : 12 - Objects
+17 - Done : 12 - Objects
+18 - Done : 12 - Object DeStructure
+19 - Done : 13 - Function
+20 - Done : 13 - Function
