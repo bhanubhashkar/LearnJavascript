@@ -8,8 +8,8 @@
 04 - Done : 04 - Let Const Var
 05 - Done : 05 - DataTypes
 06 - Done : 06 - DataType Conversion
+07 - Done : 07 - String to Number Conversion/ Operation
 
-07 - Done : 05 - String to Number Conversion
 08 - Done : 06 - Comparison of Data Types
 09 - Done : 03 - DataType Summary
 10 - Done : 07 - Stack and Heap Memory

@@ -5,13 +5,13 @@
 // To Boolean       -> Use 'Boolean()' method
 
 // Convert to Number 
-// String "33"      -> Converted to Number = 33         (Number Type)
-// String "33aB"    -> Converted to Number = NaN        (Number Type)
+// String "12"      -> Converted to Number = 12         (Number Type)
+// String "12aB"    -> Converted to Number = NaN        (Number Type)
 // boolean true     -> Converted to Number = 1          (Number Type)
 // boolean false    -> Converted to Number = 0          (Number Type)
 
 // Convert to String 
-// Number 33        -> Converted to String = "33"       (String Type)
+// Number 11        -> Converted to String = "11"       (String Type)
 // boolean true     -> Converted to String = "true"     (String Type)
 // boolean false    -> Converted to String = "false"    (String Type)
 
@@ -19,7 +19,7 @@
 // Number 1         -> Converted to Boolean = true      (Boolean Type)
 // Number 0         -> Converted to Boolean = false     (Boolean Type)
 // Number NaN       -> Converted to Boolean = false     (Boolean Type)
-// String "33"      -> Converted to Boolean = true      (Boolean Type)
+// String "11"      -> Converted to Boolean = true      (Boolean Type)
 // String "Bhanu"   -> Converted to Boolean = true      (Boolean Type)
 // String ""        -> Converted to Boolean = false     (Boolean Type)
 
